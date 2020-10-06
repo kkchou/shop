@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="購物車">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="富聚國際">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>購物車 - 富聚國際</title>
+    <!-- bootstrap css -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font-awesome -->
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Favicon  -->
+    <link rel="icon" href="./img/core-img/favicon.ico">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="./css/core-style.css">
+    <link rel="stylesheet" href="./style.css">
+    
+	<!-- -->
+	<script src="./js/fuju.js"></script>
+</head>
+
+<body>
+    <!-- ##### Header Area Start ##### -->
+    <header class="header_area">
+        <div class="classy-nav-container breakpoint-off d-flex align-items-center justify-content-between">
+            <!-- Classy Menu -->
+            <nav class="classy-navbar" id="essenceNav">
+                <!-- Logo -->
+                <script>GenLogo();</script>
+                <!-- Navbar Toggler -->
+                <div class="classy-navbar-toggler">
+                    <span class="navbarToggler"><span></span><span></span><span></span></span>
+                </div>
+                <!-- Menu -->
+                <div class="classy-menu">
+                    <!-- close btn -->
+                    <div class="classycloseIcon">
+                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                    </div>
+                    <!-- Nav Start -->
+					<!-- menu -->
+                    <script>GenMenu();</script>
+					<!-- /menu -->
+                    <!-- Nav End -->
+                </div>
+            </nav>
+
+            <!-- Header Meta Data -->
+            <div class="header-meta d-flex clearfix justify-content-end">
+                <!-- Search Area -->
+                <div class="search-area">
+                    <form action="#" method="post">
+                        <input type="search" name="search" id="headerSearch" placeholder="Type for search">
+                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </form>
+                </div>
+                <!-- Favourite Area -->
+                <div class="favourite-area">
+                    <a href="#"><img src="./img/core-img/heart.svg" alt=""></a>
+                </div>
+                <!-- User Login Info -->
+                <div class="user-login-info">
+                    <a href="#"><img src="./img/core-img/user.svg" alt=""></a>
+                </div>
+                <!-- Cart Area -->
+				<script>GenCart();</script>
+            </div>
+
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Right Side Cart Area ##### -->
+    <div class="cart-bg-overlay"></div>
+
+    <div class="right-side-cart-area">
+
+        <!-- Cart Button -->
+        <div class="cart-button">
+            <a href="#" id="rightSideCart"><img src="./img/core-img/bag.svg" alt=""> <span>3</span></a>
+        </div>
+
+        <div class="cart-content d-flex">
+        <script>GenCartArea();</script>
+		</div>
+	</div>
+    <!-- ##### Right Side Cart End ##### -->
+	
+	
+	<!-- main -->
+	<section class="new_arrivals_area section-padding-80 clearfix">
+	    <div class="container">
+            <div class="row">
+                    <!-- Hoverable Responsive Table -->
+                    <div class="col-12">
+                        <div class="portlet portlet-orange">
+                            <div class="portlet-heading">
+                                <div class="portlet-title">
+                                    <h4>線上估價</h4>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="portlet-body">
+                                <div class="table-responsive" id="estimate_dataset">
+								    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.portlet -->
+                    </div>
+                    <!-- /.col-lg-6 -->
+
+            </div>
+		</div>
+	</section>
+	<!-- /end main -->
+	
+	
+	
+    <!-- ##### Footer Area Start ##### -->
+    <script>GenFooter();</script>
+    <!-- ##### Footer Area End ##### -->
+
+
+    <div class="row" id="popup1">
+        <div class="col-lg-12" >
+			<div class="portlet portlet-orange" >
+                <div class="portlet-heading">
+                    <div class="portlet-title">
+                        <h4>Hoverable Responsive Table</h4>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="portlet-body">
+                    <div class="table-responsive" id="popup1_table">
+								    
+                    </div>
+                 </div>
+            </div>
+		</div>
+    </div>
+	<div class="row" id="popup2">
+        <div class="col-lg-12" >
+			<div class="portlet portlet-orange" >
+                <div class="portlet-heading">
+                    <div class="portlet-title">
+                        <h4>Hoverable Responsive Table</h4>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="portlet-body">
+                    <div class="table-responsive" id="popup2_table">
+								    
+                    </div>
+                 </div>
+            </div>
+		</div>
+    </div>
+	
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="./js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="./js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="./js/plugins.js"></script>
+    <!-- Classy Nav js -->
+    <script src="./js/classy-nav.min.js"></script>
+    <!-- Active js -->
+    <script src="./js/active.js"></script>
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
+    <script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
+<script>
+$(document).ready(function(){
+    var popup1_id = "popup1";
+	var popup2_id = "popup2";
+    $('#'+popup1_id).popup({
+	      //scrolllock: true,
+		  //blur: false,
+		  //transition: 'all 0.3s'
+		  
+		  
+		  beforeopen:function(){
+		      var table_name = "tt";
+		      tableFromJson(GoodsCPUCategory,table_name,"popup1_table",false);
+		  },
+		  /*
+		  onopen:function(){
+		      alert("onopen");
+		  },
+		  onclose:function(){
+		      alert("onopen");
+		  },
+		  opentransitionend:function(){
+		      alert("opentransitionend");
+		  },
+		  closetransitionend:function(){
+		      alert("closetransitionend");
+		  },
+		  */
+	  });
+	$('#'+popup2_id).popup();
+	
+	var table_name = "estimate_data";
+	tableFromJson(estimate_data,table_name,"estimate_dataset",false);
+	addTableRowPopupEvent(table_name,popup1_id);
+});
+</script>
+</body>
+
+</html>
